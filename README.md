@@ -1,4 +1,6 @@
 # Table-Tennis-Robot (TTR) (2023-2024)
+![TTR](images/TTR_1.jpg)
+
 A custom-built &amp; designed 4-axis Table Tennis Robot capable of replicating most shot techniques in the sport &amp; more.
 
 # Overview
