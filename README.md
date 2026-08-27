@@ -1,6 +1,6 @@
 # Table-Tennis-Robot (TTR) (2023-2024)
 ![TTR](images/TTR_1.jpg)
-
+#
 A custom-built &amp; designed 4-axis Table Tennis Robot capable of replicating most shot techniques in the sport &amp; more.
 
 # Overview
@@ -16,4 +16,5 @@ To solve this problem, I decided to add another axis of freedom: the ability to 
 ![Mechanical design](images/Mech_Design.jpg)
 #
 Because the project involved very high-power spinning motors as well as many other sources of vibration, I decided to construct an aluminum frame similar to that of a 3D printer using standard 20 x 20 extrusion. For the main launcher to be able to move up and down, I decided to use the aluminum extrusions as rails, wherein linear Z-axis rods could be combined with stepper motors for controllable and extremely precise up-and-down movement, again similar to a 3D printer. Two shorter pieces of aluminum extrusion were bolted onto the main launcher with bearings to let it pitch up and down. These two pieces were also attached to the main rail, wherein the Z-axis rods were bolted through them. For stability reasons, 4 stepper motors attached to 4 Z-axis rods were responsible for the up-and-down motion of the entire launcher. A massive 3D-printed box could also be optionally bolted to the bottom frame to house different components.  
-
+#
+![Mechanical design final](images/TTR_CAD_Final.png)
