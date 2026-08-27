@@ -33,3 +33,15 @@ With the launcher being done the next obvious step was contructing the frame. Th
 #
 ![Prototype build](images/Frame_Build.jpg)
 #
+
+The main launcher could now with bearings be bolted onto the shorter pieces of aluminium extruion which then the rail gantry was also attached to. I could then dismount the top frame och slide in the entire launcher. The 4 Z axis rods makes sure the entire rig is well supported and doesnt fall downwards. The end result is a complete 4 axes robot with a robust and study frame and launcher. What remained now was the wiring and powersystem.
+
+#
+
+#
+
+# Power-system & user integration
+
+# Results
+
+# Future considerations
