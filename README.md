@@ -24,5 +24,7 @@ Because the project involved very high-power spinning motors as well as many oth
 
 Before committing too much and attempting to build the final CAD design. I decided to try out a simple proof of concept. With two brushless motors originally intended for RC aircraft, some ESCs, and some 3D printing, I managed to rig a prototype. Because I still hadn't received my RC plane wheels to use as launchers, I 3D printed a circle and glued some sponge onto it. I then put it all in a tube with some cutouts and fed it some balls at varying speeds. I found this simple prototype to be extremely effective in practice and inspired a large amount of confidence in the final design. With everything in place, I started by constructing the launcher first.
 
-
+#
+![Prototype build](images/Prototype_Build.jpg)
+#
 
