@@ -31,5 +31,5 @@ Before committing too much and attempting to build the final CAD design. I decid
 With the launcher being done the next obvious step was contructing the frame. The overall dimensions of the frame werent picked out for a special reason other than the availability of aluminum extrusion in standard lengths. With the combination of 3D-printed attachment blocks, wingnuts and bolts the frame could be simply screwed togheter and still be extremely sturdy. The stepper motors are designed to be able to be directly mounted onto the bottom frame. Because im using wingnuts and aluminum extrusion means that the steppers actually can slide side to side before being bolted which made adjustment considerably easy later on in the build.
 
 #
-![Prototype build](images/Prototype_Build.jpg)
+![Prototype build](images/Frame_Build.jpg)
 #
