@@ -42,6 +42,8 @@ The main launcher could now with bearings be bolted onto the shorter pieces of a
 
 # Power-system & user integration
 
+I originally intended for Li-po to be the main powersourqce for the entire robot. But after considering concerns such as longer usage session aswell as long term condition of the lipos contantly running servos, steppers and high power brushless motors, I decided on a static powersupply from a wall outlet. After measuring the the current draw, voltages etc, I decided on a powersupply from AliExpress encompassing all my specifications. 
+
 # Results
 
 # Future considerations
