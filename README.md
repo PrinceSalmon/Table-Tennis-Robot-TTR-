@@ -18,3 +18,11 @@ To solve this problem, I decided to add another axis of freedom: the ability to 
 Because the project involved very high-power spinning motors as well as many other sources of vibration, I decided to construct an aluminum frame similar to that of a 3D printer using standard 20 x 20 extrusion. For the main launcher to be able to move up and down, I decided to use the aluminum extrusions as rails, wherein linear Z-axis rods could be combined with stepper motors for controllable and extremely precise up-and-down movement, again similar to a 3D printer. Two shorter pieces of aluminum extrusion were bolted onto the main launcher with bearings to let it pitch up and down. These two pieces were also attached to the main rail, wherein the Z-axis rods were bolted through them. For stability reasons, 4 stepper motors attached to 4 Z-axis rods were responsible for the up-and-down motion of the entire launcher. A massive 3D-printed box could also be optionally bolted to the bottom frame to house different components.  
 #
 ![Mechanical design final](images/TTR_CAD_Final.png)
+#
+
+# Build
+
+Before committing too much and attempting to build the final CAD design. I decided to try out a simple proof of concept. With two brushless motors originally intended for RC aircraft, some ESCs, and some 3D printing, I managed to rig a prototype. Because I still hadn't received my RC plane wheels to use as launchers, I 3D printed a circle and glued some sponge onto it. I then put it all in a tube with some cutouts and fed it some balls at varying speeds. I found this simple prototype to be extremely effective in practice and inspired a large amount of confidence in the final design. With everything in place, I started by constructing the launcher first.
+
+
+
