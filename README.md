@@ -28,13 +28,13 @@ Before committing too much and attempting to build the final CAD design. I decid
 ![Prototype build](images/Prototype_Build.jpg)
 #
 
-With the launcher being done the next obvious step was contructing the frame. The overall dimensions of the frame werent picked out for a special reason other than the availability of aluminum extrusion in standard lengths. With the combination of 3D-printed attachment blocks, wingnuts and bolts the frame could be simply screwed togheter and still be extremely sturdy. The stepper motors are designed to be able to be directly mounted onto the bottom frame. Because im using wingnuts and aluminum extrusion means that the steppers actually can slide side to side before being bolted which made adjustment considerably easy later on in the build.
+With the launcher being done, the next obvious step was constructing the frame. The overall dimensions of the frame weren't picked out for a special reason other than the availability of aluminum extrusion in standard lengths. With the combination of 3D-printed attachment blocks, wingnuts, and bolts, the frame could be simply screwed together and still be extremely sturdy. The stepper motors are designed to be able to be directly mounted onto the bottom frame. Because I'm using wingnuts and aluminum extrusion, the steppers actually can slide side to side before being bolted, which made adjustment considerably easier later on in the build.
 
 #
 ![Prototype build](images/Frame_Build.jpg)
 #
 
-The main launcher could now with bearings be bolted onto the shorter pieces of aluminium extruion which then the rail gantry was also attached to. I could then dismount the top frame och slide in the entire launcher. The 4 Z axis rods makes sure the entire rig is well supported and doesnt fall downwards. The end result is a complete 4 axes robot with a robust and study frame and launcher. What remained now was the wiring and powersystem.
+The main launcher could now, with bearings, be bolted onto the shorter pieces of aluminium extrusion, to which the rail gantry was also attached. I could then dismount the top frame and slide the entire launcher in. The 4 Z-axis rods ensure the entire rig is well supported and doesn't fall. The end result is a complete 4-axis robot with a robust and sturdy frame and launcher. What remained now was the wiring and power system.
 
 #
 ![Prototype build](images/Frame_Launcher.jpg)
@@ -42,7 +42,9 @@ The main launcher could now with bearings be bolted onto the shorter pieces of a
 
 # Power-system & user integration
 
-I originally intended for Li-po to be the main powersourqce for the entire robot. But after considering concerns such as longer usage session aswell as long term condition of the lipos contantly running servos, steppers and high power brushless motors, I decided on a static powersupply from a wall outlet. After measuring the the current draw, voltages etc, I decided on a powersupply from AliExpress encompassing all my specifications. 
+I originally intended for Li-po to be the main power source for the entire robot. But after considering concerns such as longer usage sessions as well as the long-term condition of the LiPo constantly running servos, steppers, and high-power brushless motors, I decided on a static power supply from a wall outlet. After measuring the current draw, voltages, etc, I decided on a power supply from AliExpress encompassing all my specifications and more. Because different components needed different amounts of voltage, a sizeable number of step-down converters became necessary to supply the entire system. Similar to other projects of mine, the entire robot ran on a Raspberry Pi clone with an external microcontroller. This Raspberry Pi also had its very own screen mounted on the back of the entire robot to allow on-site programming and adjustment, which became especially necessary for this project to properly dial in shots. 
+
+A lot of the servos also required an especially high amount of power, which made it necessary to solder my own perf-boards with power lines connecting directly to the power supply via an adjustable step-down converter with dedicated signal lines. 
 
 # Results
 
