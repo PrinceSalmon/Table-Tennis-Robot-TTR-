@@ -46,6 +46,10 @@ I originally intended for LiPo to be the main power source for the entire robot.
 
 A lot of the servos also required an especially high amount of power, which made it necessary to solder my own perf-boards with power lines connecting directly to the power supply via an adjustable step-down converter with dedicated signal lines. Because of the overwhelming amount of control signals, power, and wires, I used an Arduino Mega as my MCU. This meant that directly from the robot, the user is able to program different shots and test them immediately on site. 
 
+#
+![User Integration](images/User_Integration.jpg)
+#
+
 # Results
 
 # Future considerations
