@@ -44,14 +44,14 @@ The main launcher could now, with bearings, be bolted onto the shorter pieces of
 
 I originally intended for LiPo to be the main power source for the entire robot. But after considering concerns such as longer usage sessions as well as the long-term condition of the LiPo constantly running servos, steppers, and high-power brushless motors, I decided on a static power supply from a wall outlet. After measuring the current draw, voltages, etc, I decided on a power supply from AliExpress encompassing all my specifications and more. Because different components needed different amounts of voltage, a sizeable number of step-down converters became necessary to supply the entire system. Similar to other projects of mine, the entire robot ran on a Raspberry Pi clone with an external microcontroller. This Raspberry Pi also had its very own screen mounted on the back of the entire robot to allow on-site programming and adjustment, which became especially necessary for this project to properly dial in shots. 
 
-A lot of the servos also required an especially high amount of power, which made it necessary to solder my own perf-boards with power lines connecting directly to the power supply via an adjustable step-down converter with dedicated signal lines. Because of the overwhelming amount of control signals, power, and wires, I used an Arduino Mega as my MCU. This meant that directly from the robot, the user is able to program different shots and test them immediately on site. 
+A lot of the servos also required an especially high amount of power, which made it necessary to solder my own perf boards with power lines connecting directly to the power supply via an adjustable step-down converter with dedicated signal lines. Because of the overwhelming amount of control signals, power, and wires, I used an Arduino Mega as my MCU. This meant that directly from the robot, the user is able to program different shots and test them immediately on site. 
 
 #
 ![User Integration](images/User_Integration.jpg)
 #
 
 # Results
+The final construction turned out to be extremely successful. Each axis felt very responsive and robust even when the motors were operating at full speed. Programming each axis was very simple and only required a few lines of code. The consistency between the same technique (area of the table hit, speed & spin) was extremely consistent, which was very promising. Below are some videos demonstrating the functionality of the different axes and the speed at which the robot is able to switch between techniques and shots.
 
 # Future considerations
 
-# Future considerations
