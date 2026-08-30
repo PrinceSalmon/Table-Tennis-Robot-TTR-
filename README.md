@@ -54,9 +54,10 @@ A lot of the servos also required an especially high amount of power, which made
 The final construction turned out to be extremely successful. Each axis felt very responsive and robust even when the motors were operating at full speed. Programming each axis was very simple and only required a few lines of code. The consistency between the same technique (area of the table hit, speed & spin) was extremely consistent, which was very promising. Below are some videos demonstrating the functionality of the different axes and the speed at which the robot is able to switch between techniques and shots.
 
 
-https://github.com/user-attachments/assets/3acb04fd-5a0b-4c92-9e44-b17a5160d175
-
-https://github.com/user-attachments/assets/515e7c1f-c38c-46a9-aa9f-7150c75c8a55
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/3acb04fd-5a0b-4c92-9e44-b17a5160d175" width="49%" controls></video>
+  <video src="https://github.com/user-attachments/assets/515e7c1f-c38c-46a9-aa9f-7150c75c8a55" width="49%" controls></video>
+</p>
 
 # Future considerations
 
