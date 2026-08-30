@@ -72,3 +72,11 @@ From there on it was just programming more shots and have it do a whole routine 
 
 # Future considerations
 
+While the project was ultimately a success in the end, there are still many things i would reconsider and redo. For one I would make the Z-axis quicker moving up and down, while stepper motors are precise for Z-movement, they are quite slow. Perhaps a brushless motor with a FOC controller would rotate the Z-rods considerably quicker while keeping a decent amount of precision. The steppers were also very complicated to programm compared to the servos and lead me to not use the Z-axis unless i had to for some shots. Another major concern was the wiring of the robot. Because of the amount of servos, ESC's, power cables, stepper controllers, the system produced an overwhelming amount of wires. 
+#
+![Wire Mess](images/User_Integration.jpg)
+#
+Because i also used very cheap DuPont wires that never seated well, I spent hours determining which wire should go where and how. A fix for this would be to reduce most of the wiring to a simple PCB.
+
+
+
