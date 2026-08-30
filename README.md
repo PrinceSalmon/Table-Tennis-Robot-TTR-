@@ -52,7 +52,7 @@ A lot of the servos also required an especially high amount of power, which made
 
 # Results
 The final construction turned out to be extremely successful. Each axis felt very responsive and robust even when the motors were operating at full speed. Programming each axis was very simple and only required a few lines of code. The consistency between the same technique (area of the table hit, speed & spin) was extremely consistent, which was very promising. Below are some videos demonstrating the functionality of the different axes and the speed at which the robot is able to switch between techniques and shots.
-#
+
 <table>
   <tr>
     <td width="50%">
@@ -63,7 +63,6 @@ The final construction turned out to be extremely successful. Each axis felt ver
     </td>
   </tr>
 </table>
-#
 
 As you can see all 4-axis work just as intended and are very responsive and stable. Because of this and its consistency in holding its position programming different shots became very easy. Below is a video demonstrating a few top-spin shots at roughly 33% power.
 
