@@ -64,5 +64,11 @@ The final construction turned out to be extremely successful. Each axis felt ver
   </tr>
 </table>
 
+As you can see all 4-axis work just as intended and are very responsive and stable. Because of this and its consistency in holding its position programming different shots became very easy. Below is a video demonstrating a few top-spin shots at roughly 33% power.
+
+https://github.com/user-attachments/assets/03811915-e250-4b17-93c4-d50387db33af
+
+From there on it was just programming more shots and have it do a whole routine and probably bolting a ball-hopper to the top-frame. 
+
 # Future considerations
 
