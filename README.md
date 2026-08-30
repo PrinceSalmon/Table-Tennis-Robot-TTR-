@@ -52,7 +52,7 @@ A lot of the servos also required an especially high amount of power, which made
 
 # Results
 The final construction turned out to be extremely successful. Each axis felt very responsive and robust even when the motors were operating at full speed. Programming each axis was very simple and only required a few lines of code. The consistency between the same technique (area of the table hit, speed & spin) was extremely consistent, which was very promising. Below are some videos demonstrating the functionality of the different axes and the speed at which the robot is able to switch between techniques and shots.
-
+#
 <table>
   <tr>
     <td width="50%">
@@ -63,20 +63,20 @@ The final construction turned out to be extremely successful. Each axis felt ver
     </td>
   </tr>
 </table>
-
+#
 As you can see all 4-axis work just as intended and are very responsive and stable. Because of this and its consistency in holding its position programming different shots became very easy. Below is a video demonstrating a few top-spin shots at roughly 33% power.
-
+#
 https://github.com/user-attachments/assets/03811915-e250-4b17-93c4-d50387db33af
-
+#
 From there on it was just programming more shots and have it do a whole routine and probably bolting a ball-hopper to the top-frame. 
 
 # Future considerations
 
 While the project was ultimately a success in the end, there are still many things i would reconsider and redo. For one I would make the Z-axis quicker moving up and down, while stepper motors are precise for Z-movement, they are quite slow. Perhaps a brushless motor with a FOC controller would rotate the Z-rods considerably quicker while keeping a decent amount of precision. The steppers were also very complicated to programm compared to the servos and lead me to not use the Z-axis unless i had to for some shots. Another major concern was the wiring of the robot. Because of the amount of servos, ESC's, power cables, stepper controllers, the system produced an overwhelming amount of wires. 
 #
-![Wire Mess](images/User_Integration.jpg)
+![Wire Mess](images/Wire_Mess.jpg)
 #
-Because i also used very cheap DuPont wires that never seated well, I spent hours determining which wire should go where and how. A fix for this would be to reduce most of the wiring to a simple PCB.
+Because i also used very cheap DuPont wires that never seated well, I spent hours determining which wire should go where and how. A fix for this would be to reduce most of the wiring to a simple PCB. 
 
 
 
